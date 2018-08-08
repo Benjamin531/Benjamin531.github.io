@@ -1,0 +1,117 @@
+.section7 {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.top {
+    width: 100%;
+    height: 34vh;
+    background-image: url(../img/S7/BG_t.png);
+    background-size: cover;
+    background-color: #000000;
+}
+
+.bottom {
+    width: 100%;
+    height: 66vh;
+    padding-top: 5%;
+    padding-left: 11%;
+    padding-right: 14%;
+    padding-bottom: 5%;
+    background-image: url(../img/S7/BG_btm.png);
+    background-size: cover;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+
+.contentL {
+    width: 40%;
+    height: 100%;
+    float: left;
+    color: #ffffff;
+    margin-right: 10%;
+}
+
+.contentL>.title2 {
+    font-weight: 100;
+}
+
+.contentR {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* background-color: #ffffff; */
+}
+
+.contentRtop {
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 58px;
+    font-family: Microsoft JhengHei;
+    font-size: 2.4vmin;
+    padding: 12px 20px;
+    margin-top: 16px;
+    border: 0px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contentRbtm {
+    position: relative;
+    width: 100%;
+}
+
+#subject {
+    width: 100%;
+    height: 280px;
+    font-family: Microsoft JhengHei;
+    font-size: 2.4vmin;
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    border: 0px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    position: absolute;
+    font-family: Microsoft JhengHei;
+    font-size: 2.4vmin;
+    padding: 12px 20px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    right: 0;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1440px) {
+    .contentRtop {
+        margin-bottom: 50px;
+    }
+    input[type=text] {
+        height: 50px;
+        /* font-size: 18px; */
+        margin-top: 8px;
+    }
+    #subject {
+        height: 210px;
+        /* font-size: 18px; */
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+}
